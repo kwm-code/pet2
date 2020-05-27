@@ -2,7 +2,7 @@
 
 return [
     'pet:import' => [
-        'class' => ''
+        'class' => \GeorgRinger\Pet\Command\ImportCommand::class
     ]
 
 ];
